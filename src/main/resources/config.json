@@ -1,0 +1,20 @@
+{
+    "app_starter" : {
+        "mods":[            {
+            "module_name":"com.zenika~rest-dispatcher~0.1",
+            "conf":"rest-dispatcher",
+            "instance":3
+        }],
+        "verticles":[
+
+        ]
+    },
+
+    "rest-dispatcher" : {
+        "port": 8090,
+        "timeout": 1000,
+        "ssl": false,
+        "key_store_path":"server-keystore.jks",
+        "key_store_password":"wibble"
+    }
+}

@@ -1,0 +1,13 @@
+{
+
+  "main":"com.zenika.vertx.app.starter.AppStarter",
+
+  "description":"Basic verticle loader by json configuration",
+  "licenses": ["The Apache Software License Version 2.0"],
+  "author": "Maxence Labusquière",
+
+  "developers": ["Maxence Labusquiere"],
+  "homepage": "www.zenika.com",
+
+  "auto-redeploy": true
+}
